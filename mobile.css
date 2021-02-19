@@ -10,13 +10,12 @@ body {
   }
   
   .nav-wrapper {
-    display: flex;
     justify-content: space-between;
     padding: 38px;
   }
   
   .left-side {
-    
+    display: table-column-group;
   }
   
   .nav-wrapper > .left-side > div {
