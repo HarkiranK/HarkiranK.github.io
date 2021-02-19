@@ -104,9 +104,9 @@ body {
 }
 
 @media screen and (max-width: 630px) {
-  /* comes into effect for screens less than or equal to 320 pixels */
-  .two-column-wrapper {
-  display: grid;
+  /* comes into effect for screens less than or equal to 600 pixels */
+  img[data-src-600px] {
+    content: attr(data-src-600px, url);
   }
 }
 
