@@ -16,7 +16,7 @@ body {
   }
   
   .left-side {
-    display: column;
+    display: table-column-group;
   }
   
   .nav-wrapper > .left-side > div {
