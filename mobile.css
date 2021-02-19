@@ -5,6 +5,7 @@ body {
   }
   
   .container {
+    display: table-column;
     grid-template-columns: 1fr;
   }
   
