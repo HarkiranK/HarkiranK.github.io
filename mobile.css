@@ -5,8 +5,7 @@ body {
   }
   
   .container {
-    display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 5fr;
   }
   
   .nav-wrapper {
@@ -141,14 +140,4 @@ body {
   
   .brand {
     color: #336699
-  }
-  
-  @media screen and (max-width: 700px) {
-    .two-column-wrapper {
-      display: grid;
-      grid-template-columns: 1fr;
-    }
-    img[data-src-700px] {
-      content: attr(data-src-700px, url);
-    }
   }
