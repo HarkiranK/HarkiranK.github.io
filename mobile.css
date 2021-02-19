@@ -109,27 +109,27 @@ body {
   }
   
   .general-image-wrapper img {
-    width:300px;
+    width:250px;
     height: 500px;
     padding: 30px;
     margin: auto;
   }
   
   .work-image-wrapper img {
-    width:300px;
-    height: 625px;
+    width:250px;
+    height: 500px;
     padding: 30px;
   }
   
   .project-image-wrapper img {
-    width:300px;
-    height: 685px;
+    width:250px;
+    height: 500px;
     padding: 30px;
   }
   
   .volunteering-image-wrapper img {
-    width:300px;
-    height: 675px;
+    width:250px;
+    height: 500px;
     padding: 30px;
   }
   
