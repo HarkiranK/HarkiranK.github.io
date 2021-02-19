@@ -10,13 +10,12 @@ body {
   }
   
   .nav-wrapper {
-    display: table-column;
     justify-content: space-between;
     padding: 38px;
   }
   
   .left-side {
-    display: table-column;
+    display: table-column-group;
   }
   
   .nav-wrapper > .left-side > div {
@@ -142,4 +141,14 @@ body {
   
   .brand {
     color: #336699
+  }
+  
+  @media screen and (max-width: 700px) {
+    .two-column-wrapper {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+    img[data-src-700px] {
+      content: attr(data-src-700px, url);
+    }
   }
