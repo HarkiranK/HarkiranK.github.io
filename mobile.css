@@ -5,11 +5,11 @@ body {
   }
   
   .container {
-    display: table-column-group;
+    display: grid;
+    grid-template-columns: 1fr;
   }
   
   .nav-wrapper {
-    display: flex;
     justify-content: space-between;
     padding: 38px;
   }
