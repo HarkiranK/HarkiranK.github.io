@@ -114,6 +114,12 @@ body {
   padding: 30px;
 }
 
+.index-image-wrapper img {
+  width:400px;
+  height: 540px;
+  padding: 30px;
+}
+
 .work-image-wrapper img {
   width:400px;
   height: 625px;
