@@ -88,6 +88,15 @@ body {
   color: transparent;
 }
 
+/*For vertical centering*/
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(0%);
+  transform: translateY(0%);
+}
+
 .image-blur {
   transition: 1s;
   filter: brightness(10%);
@@ -110,7 +119,7 @@ body {
 
 .general-image-wrapper img {
   width:400px;
-  height: 500px;
+  height: 600px;
   padding: 30px;
 }
 
